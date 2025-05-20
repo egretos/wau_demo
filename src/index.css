@@ -47,6 +47,10 @@
   }
 }
 
+img {
+  object-fit: fill;
+}
+
 .hero-image {
   object-fit: cover;
   width: 100%;

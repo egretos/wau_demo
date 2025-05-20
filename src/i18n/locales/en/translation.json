@@ -8,7 +8,13 @@
   },
   "hero": {
     "title": "OUR PHILOSOPHY",
-    "description": "True value doesn't come from appearance but from integrity. WAU believes that minimalist design and quality materials create timeless pieces that enhance your space."
+    "description": "True value doesn't come from appearance but from integrity. WAU believes that minimalist design and quality materials create timeless pieces that enhance your space.",
+    "subtitle": "Between food and art, between Japan and Ukraine",
+    "tagline1": "Food as philosophy",
+    "tagline2": "Art as response",
+    "tagline3": "WAU for the world",
+    "image1Alt": "Minimalist chair design",
+    "image2Alt": "Modern furniture detail"
   },
   "about": {
     "title": "LOREM IPSUM DOLOR",

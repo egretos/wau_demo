@@ -13,12 +13,12 @@ const ProductsSection: React.FC = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
         <div className="image-grid-item">
-          <img src="/placeholder.svg" alt="Furniture detail" />
+          <img src="images/photo_2025-05-20_11-11-14.jpg" alt="Furniture detail" />
           <p className="text-xs uppercase tracking-widest mt-2">{t('products.texture')}</p>
           <p className="text-xs text-neutral-500">{t('products.textureDescription')}</p>
         </div>
         <div className="image-grid-item">
-          <img src="/placeholder.svg" alt="Furniture material" />
+          <img src="public/images/photo_2025-05-20_11-11-35.jpg" alt="Furniture material" />
           <p className="text-xs uppercase tracking-widest mt-2">{t('products.materials')}</p>
           <p className="text-xs text-neutral-500">{t('products.materialsDescription')}</p>
         </div>
@@ -50,7 +50,7 @@ const ProductsSection: React.FC = () => {
             <img src="/placeholder.svg" alt="Chair design" className="hero-image" />
           </div>
           <div className="aspect-[3/4] bg-neutral-200">
-            <img src="/placeholder.svg" alt="Furniture in space" className="hero-image" />
+            <img src="images/photo_2025-05-20_11-15-28.jpg" alt="Furniture in space" className="hero-image" />
           </div>
         </div>
       </div>
