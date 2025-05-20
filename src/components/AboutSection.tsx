@@ -1,22 +1,19 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const AboutSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-12 lg:px-24 py-20">
       <div className="aspect-square bg-neutral-100">
         <img src="/placeholder.svg" alt="Design inspiration" className="hero-image" />
       </div>
       <div className="flex flex-col justify-center">
-        <h2 className="section-title mb-6">LOREM IPSUM DOLOR</h2>
+        <h2 className="section-title mb-6">{t('about.title')}</h2>
         <p className="text-sm leading-relaxed mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          cras vel lorem ultricies amet tempor, venenatis nec 
-          fermentum lobortis. Lorem dolor tempor ultrices vestibulum 
-          enim et blandit, pretium orci, ligula. Fusce suscipit 
-          scelerisque tortor sit amet lacinia. Nam vitae euismod at 
-          dictum in. Nulla vitae iaculis at purus mattis 
-          elementum. Aliquam congue dapibus vitae ut.
+          {t('about.description')}
         </p>
       </div>
     </section>

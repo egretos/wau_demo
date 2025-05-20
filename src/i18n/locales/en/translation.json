@@ -1,0 +1,69 @@
+
+{
+  "header": {
+    "about": "About",
+    "experience": "Experience",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "OUR PHILOSOPHY",
+    "description": "True value doesn't come from appearance but from integrity. WAU believes that minimalist design and quality materials create timeless pieces that enhance your space."
+  },
+  "about": {
+    "title": "LOREM IPSUM DOLOR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut."
+  },
+  "experience": {
+    "past": "PAST EXPERIENCE",
+    "present": "PRESENT-DAY SKILLS",
+    "pastItems": {
+      "item1": "Designs based on historical principles and traditional crafting techniques",
+      "item2": "Modernized Japanese design elements",
+      "item3": "Focus on natural materials and texture",
+      "item4": "Handcrafted by skilled artisans",
+      "item5": "Adherence to traditional aesthetic values",
+      "item6": "Limited batch production to ensure quality control"
+    },
+    "presentItems": {
+      "item1": "Integration of modern technologies with traditional craft",
+      "item2": "Applying contemporary production methods",
+      "item3": "Environmentally sustainable design approach",
+      "item4": "Utilizing sustainable materials that remain durable",
+      "item5": "Balancing aesthetics with functionality",
+      "item6": "Creating timeless pieces that transcend trends",
+      "item7": "Building collaborations with clients to fully actualize and conceptualize custom works"
+    }
+  },
+  "products": {
+    "title": "WAU FOOD",
+    "texture": "TEXTURE",
+    "textureDescription": "Weight, tactile qualities, and texture",
+    "materials": "MATERIALS USED",
+    "materialsDescription": "Wood, leather, cotton, and steel",
+    "design": "DESIGN",
+    "designDescription": "Design for minimalist aesthetics",
+    "quote": "INTERIOR DESIGN IS AS MUCH ABOUT WHAT YOU DON'T PUT INSIDE A SPACE AS WHAT YOU PUT IN.",
+    "furnitureTitle": "FURNITURE DESIGN",
+    "minimalistConcepts": "Minimalist Concepts",
+    "furnitureDescription": "Working with furniture focused on clean lines and contextual design. Exploration of negative space, form, and function. Using natural wood, steel, and textiles to craft pieces that stand the test of time and evoke tranquility in spaces."
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "address": "12 AVENUE ST, CITY STATE, COUNTRY 12345",
+    "email": "HELLO@WAUJAPAN.COM",
+    "phone": "+123 456 7890",
+    "collaborate": "LET'S WORK TOGETHER",
+    "copyright": "© 2025 WAU DESIGNS. ALL RIGHTS RESERVED.",
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "pinterest": "Pinterest"
+    }
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "uk": "Ukrainian",
+    "ja": "Japanese"
+  }
+}

@@ -1,30 +1,33 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ExperienceSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="experience" className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-12 lg:px-24 py-20 bg-neutral-100">
       <div>
-        <h3 className="section-title text-2xl md:text-3xl mb-6">PAST EXPERIENCE</h3>
+        <h3 className="section-title text-2xl md:text-3xl mb-6">{t('experience.past')}</h3>
         <div className="space-y-2">
-          <p className="feature-item">Designs based on historical principles and traditional crafting techniques</p>
-          <p className="feature-item">Modernized Japanese design elements</p>
-          <p className="feature-item">Focus on natural materials and texture</p>
-          <p className="feature-item">Handcrafted by skilled artisans</p>
-          <p className="feature-item">Adherence to traditional aesthetic values</p>
-          <p className="feature-item">Limited batch production to ensure quality control</p>
+          <p className="feature-item">{t('experience.pastItems.item1')}</p>
+          <p className="feature-item">{t('experience.pastItems.item2')}</p>
+          <p className="feature-item">{t('experience.pastItems.item3')}</p>
+          <p className="feature-item">{t('experience.pastItems.item4')}</p>
+          <p className="feature-item">{t('experience.pastItems.item5')}</p>
+          <p className="feature-item">{t('experience.pastItems.item6')}</p>
         </div>
       </div>
       <div>
-        <h3 className="section-title text-2xl md:text-3xl mb-6">PRESENT-DAY SKILLS</h3>
+        <h3 className="section-title text-2xl md:text-3xl mb-6">{t('experience.present')}</h3>
         <div className="space-y-2">
-          <p className="feature-item">Integration of modern technologies with traditional craft</p>
-          <p className="feature-item">Applying contemporary production methods</p>
-          <p className="feature-item">Environmentally sustainable design approach</p>
-          <p className="feature-item">Utilizing sustainable materials that remain durable</p>
-          <p className="feature-item">Balancing aesthetics with functionality</p>
-          <p className="feature-item">Creating timeless pieces that transcend trends</p>
-          <p className="feature-item">Building collaborations with clients to fully actualize and conceptualize custom works</p>
+          <p className="feature-item">{t('experience.presentItems.item1')}</p>
+          <p className="feature-item">{t('experience.presentItems.item2')}</p>
+          <p className="feature-item">{t('experience.presentItems.item3')}</p>
+          <p className="feature-item">{t('experience.presentItems.item4')}</p>
+          <p className="feature-item">{t('experience.presentItems.item5')}</p>
+          <p className="feature-item">{t('experience.presentItems.item6')}</p>
+          <p className="feature-item">{t('experience.presentItems.item7')}</p>
         </div>
       </div>
     </section>

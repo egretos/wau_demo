@@ -1,0 +1,69 @@
+
+{
+  "header": {
+    "about": "会社概要",
+    "experience": "経験",
+    "products": "製品",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "私たちの哲学",
+    "description": "真の価値は外見からではなく、完全性から生まれます。WAUは、ミニマリストデザインと高品質の素材が、あなたの空間を豊かにする永続的な作品を生み出すと信じています。"
+  },
+  "about": {
+    "title": "LOREM IPSUM DOLOR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, cras vel lorem ultricies amet tempor, venenatis nec fermentum lobortis. Lorem dolor tempor ultrices vestibulum enim et blandit, pretium orci, ligula. Fusce suscipit scelerisque tortor sit amet lacinia. Nam vitae euismod at dictum in. Nulla vitae iaculis at purus mattis elementum. Aliquam congue dapibus vitae ut."
+  },
+  "experience": {
+    "past": "過去の経験",
+    "present": "現在のスキル",
+    "pastItems": {
+      "item1": "歴史的原則と伝統的な工芸技術に基づくデザイン",
+      "item2": "現代化された日本のデザイン要素",
+      "item3": "自然素材とテクスチャーに焦点",
+      "item4": "熟練した職人による手作り",
+      "item5": "伝統的な美的価値の遵守",
+      "item6": "品質管理のための限定生産"
+    },
+    "presentItems": {
+      "item1": "伝統工芸と現代技術の統合",
+      "item2": "現代的な生産方法の適用",
+      "item3": "環境的に持続可能なデザインアプローチ",
+      "item4": "耐久性のある持続可能な素材の活用",
+      "item5": "美学と機能性のバランス",
+      "item6": "流行を超越した永遠の作品の創造",
+      "item7": "クライアントとのコラボレーションによるカスタム作品の実現と概念化"
+    }
+  },
+  "products": {
+    "title": "和宇フード",
+    "texture": "テクスチャ",
+    "textureDescription": "重量、触感、質感",
+    "materials": "使用素材",
+    "materialsDescription": "木材、レザー、コットン、スチール",
+    "design": "デザイン",
+    "designDescription": "ミニマリスト美学のためのデザイン",
+    "quote": "インテリアデザインは、空間に何を置かないかということと同じくらい、何を置くかということについてです。",
+    "furnitureTitle": "家具デザイン",
+    "minimalistConcepts": "ミニマリストコンセプト",
+    "furnitureDescription": "クリーンなラインとコンテキストデザインに焦点を当てた家具。ネガティブスペース、形状、機能の探求。自然木材、スチール、テキスタイルを使用して、時の試練に耐え、空間に静けさをもたらす作品を作ります。"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "address": "アベニュー12、シティステート、カントリー12345",
+    "email": "HELLO@WAUJAPAN.COM",
+    "phone": "+123 456 7890",
+    "collaborate": "協力しましょう",
+    "copyright": "© 2025 WAU DESIGNS. 全著作権所有。",
+    "social": {
+      "instagram": "インスタグラム",
+      "facebook": "フェイスブック",
+      "pinterest": "ピンタレスト"
+    }
+  },
+  "languageSwitcher": {
+    "en": "英語",
+    "uk": "ウクライナ語",
+    "ja": "日本語"
+  }
+}

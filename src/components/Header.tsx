@@ -1,7 +1,11 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <header className="py-6 px-6 md:px-12 lg:px-24">
       <div className="flex justify-between items-center">
@@ -12,11 +16,14 @@ const Header: React.FC = () => {
           </h1>
         </div>
         <nav className="hidden md:flex space-x-10">
-          <a href="#about" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">About</a>
-          <a href="#experience" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">Experience</a>
-          <a href="#products" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">Products</a>
-          <a href="#contact" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">Contact</a>
+          <a href="#about" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.about')}</a>
+          <a href="#experience" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.experience')}</a>
+          <a href="#products" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.products')}</a>
+          <a href="#contact" className="text-sm uppercase tracking-widest hover:text-neutral-500 transition-colors">{t('header.contact')}</a>
         </nav>
+      </div>
+      <div className="flex justify-end mt-4">
+        <LanguageSwitcher />
       </div>
     </header>
   );
